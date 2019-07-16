@@ -1,0 +1,15 @@
+B:\HomeWorks\Essential\012_Events\012_Events\bin\Debug\012_Events.exe.config
+B:\HomeWorks\Essential\012_Events\012_Events\bin\Debug\012_Events.exe
+B:\HomeWorks\Essential\012_Events\012_Events\bin\Debug\012_Events.pdb
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\MainWindow.g.cs
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\App.g.cs
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events_MarkupCompile.cache
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events_MarkupCompile.lref
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\MainWindow.baml
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events.g.resources
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\_012_Events.Properties.Resources.resources
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events.csproj.GenerateResource.cache
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events.exe
+B:\HomeWorks\Essential\012_Events\012_Events\obj\Debug\012_Events.pdb

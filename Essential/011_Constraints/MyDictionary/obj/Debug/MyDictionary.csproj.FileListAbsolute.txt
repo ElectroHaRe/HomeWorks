@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\011_Constraints\MyDictionary\bin\Debug\MyDictionary.exe.config
+B:\HomeWorks\Essential\011_Constraints\MyDictionary\bin\Debug\MyDictionary.exe
+B:\HomeWorks\Essential\011_Constraints\MyDictionary\bin\Debug\MyDictionary.pdb
+B:\HomeWorks\Essential\011_Constraints\MyDictionary\obj\Debug\MyDictionary.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\011_Constraints\MyDictionary\obj\Debug\MyDictionary.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\011_Constraints\MyDictionary\obj\Debug\MyDictionary.exe
+B:\HomeWorks\Essential\011_Constraints\MyDictionary\obj\Debug\MyDictionary.pdb

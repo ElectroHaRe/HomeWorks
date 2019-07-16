@@ -1,0 +1,14 @@
+B:\HomeWorks\Essential\007_Enum\ColorPrint\bin\Debug\ColorPrint.exe.config
+B:\HomeWorks\Essential\007_Enum\ColorPrint\bin\Debug\ColorPrint.exe
+B:\HomeWorks\Essential\007_Enum\ColorPrint\bin\Debug\ColorPrint.pdb
+B:\HomeWorks\Essential\007_Enum\ColorPrint\obj\Debug\ColorPrint.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\007_Enum\ColorPrint\obj\Debug\ColorPrint.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\007_Enum\ColorPrint\obj\Debug\ColorPrint.exe
+B:\HomeWorks\Essential\007_Enum\ColorPrint\obj\Debug\ColorPrint.pdb
+B:\HomeWorks\Essential\008_Enum\ColorPrint\bin\Debug\ColorPrint.exe.config
+B:\HomeWorks\Essential\008_Enum\ColorPrint\bin\Debug\ColorPrint.exe
+B:\HomeWorks\Essential\008_Enum\ColorPrint\bin\Debug\ColorPrint.pdb
+B:\HomeWorks\Essential\008_Enum\ColorPrint\obj\Debug\ColorPrint.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\008_Enum\ColorPrint\obj\Debug\ColorPrint.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\008_Enum\ColorPrint\obj\Debug\ColorPrint.exe
+B:\HomeWorks\Essential\008_Enum\ColorPrint\obj\Debug\ColorPrint.pdb

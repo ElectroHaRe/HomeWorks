@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\010_Collections\010_Collections\obj\Debug\MyList.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\010_Collections\010_Collections\obj\Debug\MyList.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\010_Collections\010_Collections\bin\Debug\010_Collections.exe.config
+B:\HomeWorks\Essential\010_Collections\010_Collections\bin\Debug\010_Collections.exe
+B:\HomeWorks\Essential\010_Collections\010_Collections\bin\Debug\010_Collections.pdb
+B:\HomeWorks\Essential\010_Collections\010_Collections\obj\Debug\010_Collections.exe
+B:\HomeWorks\Essential\010_Collections\010_Collections\obj\Debug\010_Collections.pdb

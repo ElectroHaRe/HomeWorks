@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\005_Indexers\Matrix\bin\Debug\Matrix.exe.config
+B:\HomeWorks\Essential\005_Indexers\Matrix\bin\Debug\Matrix.exe
+B:\HomeWorks\Essential\005_Indexers\Matrix\bin\Debug\Matrix.pdb
+B:\HomeWorks\Essential\005_Indexers\Matrix\obj\Debug\Matrix.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\005_Indexers\Matrix\obj\Debug\Matrix.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\005_Indexers\Matrix\obj\Debug\Matrix.exe
+B:\HomeWorks\Essential\005_Indexers\Matrix\obj\Debug\Matrix.pdb

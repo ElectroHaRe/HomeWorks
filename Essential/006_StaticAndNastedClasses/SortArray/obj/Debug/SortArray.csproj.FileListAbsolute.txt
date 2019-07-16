@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\SortArray\bin\Debug\SortArray.exe.config
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\SortArray\bin\Debug\SortArray.exe
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\SortArray\bin\Debug\SortArray.pdb
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\SortArray\obj\Debug\SortArray.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\SortArray\obj\Debug\SortArray.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\SortArray\obj\Debug\SortArray.exe
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\SortArray\obj\Debug\SortArray.pdb

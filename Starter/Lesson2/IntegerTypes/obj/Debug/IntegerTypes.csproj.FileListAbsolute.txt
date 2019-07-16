@@ -1,0 +1,10 @@
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\obj\Debug\IntegerTypes.csprojAssemblyReference.cache
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\obj\Debug\IntegerTypes.TypeLimitsForm.resources
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\obj\Debug\IntegerTypes.Properties.Resources.resources
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\obj\Debug\IntegerTypes.csproj.GenerateResource.cache
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\obj\Debug\IntegerTypes.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\bin\Debug\IntegerTypes.exe.config
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\bin\Debug\IntegerTypes.exe
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\bin\Debug\IntegerTypes.pdb
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\obj\Debug\IntegerTypes.exe
+B:\HomeWorks\Starter\Lesson2\IntegerTypes\obj\Debug\IntegerTypes.pdb

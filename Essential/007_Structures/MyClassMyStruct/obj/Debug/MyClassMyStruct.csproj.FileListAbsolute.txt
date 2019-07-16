@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\007_Structures\MyClassMyStruct\bin\Debug\MyClassMyStruct.exe.config
+B:\HomeWorks\Essential\007_Structures\MyClassMyStruct\bin\Debug\MyClassMyStruct.exe
+B:\HomeWorks\Essential\007_Structures\MyClassMyStruct\bin\Debug\MyClassMyStruct.pdb
+B:\HomeWorks\Essential\007_Structures\MyClassMyStruct\obj\Debug\MyClassMyStruct.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\007_Structures\MyClassMyStruct\obj\Debug\MyClassMyStruct.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\007_Structures\MyClassMyStruct\obj\Debug\MyClassMyStruct.exe
+B:\HomeWorks\Essential\007_Structures\MyClassMyStruct\obj\Debug\MyClassMyStruct.pdb

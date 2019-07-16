@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\007_Enum\EmployeePosition\bin\Debug\EmployeePosition.exe.config
+B:\HomeWorks\Essential\007_Enum\EmployeePosition\bin\Debug\EmployeePosition.exe
+B:\HomeWorks\Essential\007_Enum\EmployeePosition\bin\Debug\EmployeePosition.pdb
+B:\HomeWorks\Essential\007_Enum\EmployeePosition\obj\Debug\EmployeePosition.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\007_Enum\EmployeePosition\obj\Debug\EmployeePosition.exe
+B:\HomeWorks\Essential\007_Enum\EmployeePosition\obj\Debug\EmployeePosition.pdb
+B:\HomeWorks\Essential\007_Enum\EmployeePosition\obj\Debug\EmployeePosition.csprojAssemblyReference.cache

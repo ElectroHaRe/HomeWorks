@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\014_Collections\My_List\bin\Debug\My_List.exe.config
+B:\HomeWorks\Essential\014_Collections\My_List\bin\Debug\My_List.exe
+B:\HomeWorks\Essential\014_Collections\My_List\bin\Debug\My_List.pdb
+B:\HomeWorks\Essential\014_Collections\My_List\obj\Debug\My_List.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\014_Collections\My_List\obj\Debug\My_List.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\014_Collections\My_List\obj\Debug\My_List.exe
+B:\HomeWorks\Essential\014_Collections\My_List\obj\Debug\My_List.pdb

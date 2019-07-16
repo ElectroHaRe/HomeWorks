@@ -1,0 +1,15 @@
+B:\HomeWorks\Essential\012_Events\TimerCounter\bin\Debug\TimerCounter.exe.config
+B:\HomeWorks\Essential\012_Events\TimerCounter\bin\Debug\TimerCounter.exe
+B:\HomeWorks\Essential\012_Events\TimerCounter\bin\Debug\TimerCounter.pdb
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\MainWindow.g.cs
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\App.g.cs
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter_MarkupCompile.cache
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter_MarkupCompile.lref
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\MainWindow.baml
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter.g.resources
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter.Properties.Resources.resources
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter.csproj.GenerateResource.cache
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter.exe
+B:\HomeWorks\Essential\012_Events\TimerCounter\obj\Debug\TimerCounter.pdb

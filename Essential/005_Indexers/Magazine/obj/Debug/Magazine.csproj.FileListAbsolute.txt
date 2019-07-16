@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\005_Indexers\Magazine\bin\Debug\Magazine.exe.config
+B:\HomeWorks\Essential\005_Indexers\Magazine\bin\Debug\Magazine.exe
+B:\HomeWorks\Essential\005_Indexers\Magazine\bin\Debug\Magazine.pdb
+B:\HomeWorks\Essential\005_Indexers\Magazine\obj\Debug\Magazine.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\005_Indexers\Magazine\obj\Debug\Magazine.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\005_Indexers\Magazine\obj\Debug\Magazine.exe
+B:\HomeWorks\Essential\005_Indexers\Magazine\obj\Debug\Magazine.pdb

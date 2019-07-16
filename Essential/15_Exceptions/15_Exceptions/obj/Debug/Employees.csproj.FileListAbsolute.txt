@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\15_Exceptions\15_Exceptions\obj\Debug\Employees.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\15_Exceptions\15_Exceptions\obj\Debug\Employees.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\15_Exceptions\15_Exceptions\bin\Debug\15_Exceptions.exe.config
+B:\HomeWorks\Essential\15_Exceptions\15_Exceptions\bin\Debug\15_Exceptions.exe
+B:\HomeWorks\Essential\15_Exceptions\15_Exceptions\bin\Debug\15_Exceptions.pdb
+B:\HomeWorks\Essential\15_Exceptions\15_Exceptions\obj\Debug\15_Exceptions.exe
+B:\HomeWorks\Essential\15_Exceptions\15_Exceptions\obj\Debug\15_Exceptions.pdb

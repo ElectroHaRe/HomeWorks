@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\FindAndReplaceManager\bin\Debug\FindAndReplaceManager.exe.config
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\FindAndReplaceManager\bin\Debug\FindAndReplaceManager.exe
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\FindAndReplaceManager\bin\Debug\FindAndReplaceManager.pdb
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\FindAndReplaceManager\obj\Debug\FindAndReplaceManager.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\FindAndReplaceManager\obj\Debug\FindAndReplaceManager.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\FindAndReplaceManager\obj\Debug\FindAndReplaceManager.exe
+B:\HomeWorks\Essential\006_StaticAndNastedClasses\FindAndReplaceManager\obj\Debug\FindAndReplaceManager.pdb

@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\013_Threads\013_Threads\bin\Debug\013_Threads.exe.config
+B:\HomeWorks\Essential\013_Threads\013_Threads\bin\Debug\013_Threads.exe
+B:\HomeWorks\Essential\013_Threads\013_Threads\bin\Debug\013_Threads.pdb
+B:\HomeWorks\Essential\013_Threads\013_Threads\obj\Debug\Matrix_v1.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\013_Threads\013_Threads\obj\Debug\Matrix_v1.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\013_Threads\013_Threads\obj\Debug\013_Threads.exe
+B:\HomeWorks\Essential\013_Threads\013_Threads\obj\Debug\013_Threads.pdb

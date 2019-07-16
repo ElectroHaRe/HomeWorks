@@ -1,0 +1,6 @@
+B:\HomeWorks\Essential\009_Delegates\AnonimMethod\bin\Debug\AnonimMethod.exe.config
+B:\HomeWorks\Essential\009_Delegates\AnonimMethod\bin\Debug\AnonimMethod.exe
+B:\HomeWorks\Essential\009_Delegates\AnonimMethod\bin\Debug\AnonimMethod.pdb
+B:\HomeWorks\Essential\009_Delegates\AnonimMethod\obj\Debug\AnonimMethod.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\009_Delegates\AnonimMethod\obj\Debug\AnonimMethod.exe
+B:\HomeWorks\Essential\009_Delegates\AnonimMethod\obj\Debug\AnonimMethod.pdb

@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\005_Indexers\Array\bin\Debug\Array.exe.config
+B:\HomeWorks\Essential\005_Indexers\Array\bin\Debug\Array.exe
+B:\HomeWorks\Essential\005_Indexers\Array\bin\Debug\Array.pdb
+B:\HomeWorks\Essential\005_Indexers\Array\obj\Debug\Array.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\005_Indexers\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\005_Indexers\Array\obj\Debug\Array.exe
+B:\HomeWorks\Essential\005_Indexers\Array\obj\Debug\Array.pdb

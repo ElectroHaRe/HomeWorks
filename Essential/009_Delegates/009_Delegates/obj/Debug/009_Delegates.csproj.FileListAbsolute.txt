@@ -1,0 +1,7 @@
+B:\HomeWorks\Essential\009_Delegates\009_Delegates\bin\Debug\009_Delegates.exe.config
+B:\HomeWorks\Essential\009_Delegates\009_Delegates\bin\Debug\009_Delegates.exe
+B:\HomeWorks\Essential\009_Delegates\009_Delegates\bin\Debug\009_Delegates.pdb
+B:\HomeWorks\Essential\009_Delegates\009_Delegates\obj\Debug\009_Delegates.csprojAssemblyReference.cache
+B:\HomeWorks\Essential\009_Delegates\009_Delegates\obj\Debug\009_Delegates.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Essential\009_Delegates\009_Delegates\obj\Debug\009_Delegates.exe
+B:\HomeWorks\Essential\009_Delegates\009_Delegates\obj\Debug\009_Delegates.pdb

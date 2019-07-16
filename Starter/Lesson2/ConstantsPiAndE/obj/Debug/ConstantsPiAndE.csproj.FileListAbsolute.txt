@@ -1,0 +1,7 @@
+B:\HomeWorks\Starter\Lesson2\ConstantsPiAndE\bin\Debug\ConstantsPiAndE.exe.config
+B:\HomeWorks\Starter\Lesson2\ConstantsPiAndE\bin\Debug\ConstantsPiAndE.exe
+B:\HomeWorks\Starter\Lesson2\ConstantsPiAndE\bin\Debug\ConstantsPiAndE.pdb
+B:\HomeWorks\Starter\Lesson2\ConstantsPiAndE\obj\Debug\ConstantsPiAndE.csproj.CoreCompileInputs.cache
+B:\HomeWorks\Starter\Lesson2\ConstantsPiAndE\obj\Debug\ConstantsPiAndE.exe
+B:\HomeWorks\Starter\Lesson2\ConstantsPiAndE\obj\Debug\ConstantsPiAndE.pdb
+B:\HomeWorks\Starter\Lesson2\ConstantsPiAndE\obj\Debug\ConstantsPiAndE.csprojAssemblyReference.cache

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaOperator", "009_Delegates\LambdaOperator.csproj", "{D01E58D3-FCA7-4DA4-A427-28B310C8068E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonimMethod", "AnonimMethod\AnonimMethod.csproj", "{9A0B9D3E-4A32-4C8A-B8CC-F224E4A7FC29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01E58D3-FCA7-4DA4-A427-28B310C8068E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01E58D3-FCA7-4DA4-A427-28B310C8068E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01E58D3-FCA7-4DA4-A427-28B310C8068E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01E58D3-FCA7-4DA4-A427-28B310C8068E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A0B9D3E-4A32-4C8A-B8CC-F224E4A7FC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0B9D3E-4A32-4C8A-B8CC-F224E4A7FC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0B9D3E-4A32-4C8A-B8CC-F224E4A7FC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0B9D3E-4A32-4C8A-B8CC-F224E4A7FC29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F3F1B66-65FA-4D51-8799-CFD3716FD16D}
+	EndGlobalSection
+EndGlobal
