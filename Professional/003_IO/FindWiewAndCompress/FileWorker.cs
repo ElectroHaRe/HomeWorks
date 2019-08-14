@@ -6,7 +6,6 @@ namespace FindWiewAndCompress
 {
     static class FileWorker
     {
-        //рекурсивный метод поиска файла в конкретной директории
         private static string FindFileInDirectory(DirectoryInfo d_info, string fileName)
         {
             try
@@ -17,8 +16,6 @@ namespace FindWiewAndCompress
                 }
             }
             catch { return null; }
-
-            DirectoryInfo[] temp = new DirectoryInfo[0];
 
             var directories = d_info.GetDirectories();
 
@@ -121,45 +118,5 @@ namespace FindWiewAndCompress
             source.Close();
             return result;
         }
-
-        //todo : Разобраться в BinaryReader и BinaryWrighter, а также понять, почему это всё не работает нормально (Как и стри врайтер и риадер) с архивированием
-        //public static string CompressToZipAndDecompressToString(string filePath, string zipFileName)
-        //{
-        //    string result = "";
-        //    var file = new FileInfo(filePath);
-
-        //    if (!file.Exists)
-        //        return result;
-
-        //    if (Path.HasExtension(zipFileName))
-        //        Path.ChangeExtension(zipFileName, ".zip");
-        //    else zipFileName += ".zip";
-        //    string path = file.DirectoryName + zipFileName;
-
-        //    FileStream source = File.Open(filePath, FileMode.Open);
-        //    GZipStream compressor = new GZipStream(File.Create(path), CompressionMode.Compress);
-        //    int theByte = source.ReadByte();
-        //    while (theByte != -1)
-        //    {
-        //        compressor.WriteByte((byte)theByte);
-        //        theByte = source.ReadByte();
-        //    }
-        //    compressor.Close();
-        //    source.Close();
-
-        //    GZipStream decompressor = new GZipStream(File.Open(path, FileMode.Open), CompressionMode.Decompress);
-        //    FileStream destination = File.Open(Path.GetDirectoryName(path) + "test.txt", FileMode.OpenOrCreate);
-        //    theByte = decompressor.ReadByte();
-        //    while (theByte != -1)
-        //    {
-        //        destination.WriteByte((byte)theByte);
-        //        theByte = decompressor.ReadByte();
-        //        result += (char)theByte;
-        //    }
-        //    decompressor.Close();
-        //    destination.Close();
-
-        //    return result;
-        //}
     }
 }

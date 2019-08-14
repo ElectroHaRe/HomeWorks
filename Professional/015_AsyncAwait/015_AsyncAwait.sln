@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counter", "Counter\Counter.csproj", "{D0D5B00A-8FD6-49B0-AEF0-0CF6D6872BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBaseCinnectionFake", "DataBaseCinnectionFake\DataBaseCinnectionFake.csproj", "{E0A30B5D-23EC-4F12-B803-331C2D377293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0D5B00A-8FD6-49B0-AEF0-0CF6D6872BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D5B00A-8FD6-49B0-AEF0-0CF6D6872BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D5B00A-8FD6-49B0-AEF0-0CF6D6872BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D5B00A-8FD6-49B0-AEF0-0CF6D6872BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A30B5D-23EC-4F12-B803-331C2D377293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A30B5D-23EC-4F12-B803-331C2D377293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A30B5D-23EC-4F12-B803-331C2D377293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A30B5D-23EC-4F12-B803-331C2D377293}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15CF8D29-CB0D-44C3-B918-CAA9436917BA}
+	EndGlobalSection
+EndGlobal

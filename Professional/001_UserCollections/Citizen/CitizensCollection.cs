@@ -4,19 +4,13 @@ using System.Collections.Generic;
 
 namespace Citizen
 {
-    class CitizensCollection : ICollection<Citizen>, IEnumerator<Citizen>
+    class CitizensCollection : ICollection<Citizen>
     {
         private Citizen[] citizens = new Citizen[0];
 
         public int Count => citizens.Length;
 
-        public int position { get; private set; } = -1;
-
         public bool IsReadOnly => false;
-
-        public Citizen Current => citizens[position];
-
-        object IEnumerator.Current => citizens[position];
 
         public int Add(Citizen item)
         {
@@ -93,11 +87,6 @@ namespace Citizen
             }
         }
 
-        public void Dispose()
-        {
-            Reset();
-        }
-
         public bool Delete(Citizen item)
         {
             if (!Contains(item))
@@ -142,17 +131,11 @@ namespace Citizen
 
         public IEnumerator<Citizen> GetEnumerator()
         {
-            return this as IEnumerator<Citizen>;
-        }
-
-        public bool MoveNext()
-        {
-            if (position < Count - 1)
+            for (int i = 0; i < Count; i++)
             {
-                position++;
-                return true;
+                yield return citizens[i];
             }
-            else return false;
+            yield break;
         }
 
         public bool Remove(Citizen item)
@@ -168,14 +151,13 @@ namespace Citizen
             return false;
         }
 
-        public void Reset()
-        {
-            position = -1;
-        }
-
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return this as IEnumerator;
+            for (int i = 0; i < Count; i++)
+            {
+                yield return citizens[i];
+            }
+            yield break;
         }
     }
 }

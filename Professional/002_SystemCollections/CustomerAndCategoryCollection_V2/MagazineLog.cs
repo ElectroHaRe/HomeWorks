@@ -76,6 +76,9 @@ namespace CustomerAndCategoryCollection_V2
 
         public void Add(Customer key, ProductCategory value)
         {
+            if (Contains(new KeyValuePair<Customer, ProductCategory>(key, value)))
+                return;
+
             Array.Resize(ref pairs, Count + 1);
             if (Contains(key))
             {
@@ -135,7 +138,8 @@ namespace CustomerAndCategoryCollection_V2
 
         public void CopyTo(KeyValuePair<Customer, ProductCategory>[] array, int arrayIndex)
         {
-            Array.Resize(ref array, arrayIndex + pairs.Length + 1);
+            if (array.Length < arrayIndex + pairs.Length + 1)
+                Array.Resize(ref array, arrayIndex + pairs.Length + 1);
 
             for (int i = arrayIndex; i < pairs.Length + arrayIndex; i++)
             {

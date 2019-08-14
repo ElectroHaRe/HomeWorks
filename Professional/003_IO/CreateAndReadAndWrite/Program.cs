@@ -23,9 +23,6 @@ namespace CreateAndReadAndWrite
 
             DirectoryInfo d_info = new DirectoryInfo(@"B:\");
 
-            //Console.WriteLine("Найду ли я этот файл?)");
-            //Console.WriteLine(d_info.GetFileSystemInfos("soska.*").Length);
-
             Console.ReadLine();
         }
     }

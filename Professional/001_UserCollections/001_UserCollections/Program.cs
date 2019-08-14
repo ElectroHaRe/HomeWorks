@@ -9,7 +9,7 @@ namespace _001_UserCollections
         {
             for (int i = 0; i < items.Length; i++)
             {
-                if (items[i] % 2 != 0 && items[i]!=0)
+                if (items[i] % 2 != 0 && items[i] != 0)
                     yield return Math.Pow(items[i], 2);
             }
         }
@@ -18,7 +18,7 @@ namespace _001_UserCollections
         {
             Console.WriteLine("Квадраты нечётных чисел среди последовательности {1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10} : ");
 
-            foreach (var item in GetCollectionOf(0,1, 2, 3, 4, 5,6,7,8,9,10))
+            foreach (var item in GetCollectionOf(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
             {
                 Console.Write(item + " , ");
             }
