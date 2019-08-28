@@ -6,11 +6,38 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace LoginAndPass
 {
+
+    public class s
+    {
+        public static int a;
+        public dynamic b;
+
+        public delegate dynamic meh(dynamic arg);
+        //public event dynamic lol;//ошибка
+
+        dynamic m(dynamic arg) { return 5; }
+    }
+
+    //interface dynamucTest<T> { }
+
+    //class dTest<T> { }
+
+    //class p2 : dTest<dynamic> { }
+
+    //class p : Program,dynamucTest<dynamic>//ошибка
+    //{
+    //    public override int this[int a] => base[a];
+    //}
+
     class Program
     {
+        public virtual int this[int a] { get => 3; }
+
+        volatile s a;
 
         static string ReadLineWithPattern(string pattern)
         {
@@ -52,6 +79,7 @@ namespace LoginAndPass
             Console.WriteLine("Ваш логин : {0}", login);
             Console.WriteLine("Ваш пароль : {0}", pass);
             Console.ReadKey();
+            
         }
     }
 }
