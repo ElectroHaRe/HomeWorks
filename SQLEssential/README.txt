@@ -7,4 +7,5 @@ DBNormalization = #4 (Denormilized -> 3NF)
 JOIN's - #5 (INNER JOIN (JOIN) & LEFT OUTER JOIN)
 subQuery - #6 (...)
 ViewAndIndex - #7 (CREATE VIEW ... & id for clustered/non clustered indexes)
+ProcAndFunctions - #8 (CREATE PROC ...)
 
