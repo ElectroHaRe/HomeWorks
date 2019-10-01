@@ -3,8 +3,10 @@ GO
 
 
 --*******************id = 1 - clustered index*******************--
+--*****************id = 2 - non clustered index*****************--
 
-SELECT [name] , schema_id FROM sys.tables
+SELECT * FROM sys.indexes
+WHERE object_id IN (SELECT object_id FROM sys.tables)
 
 --*****************************VIEW*****************************--
 
