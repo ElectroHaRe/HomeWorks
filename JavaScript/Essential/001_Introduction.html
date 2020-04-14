@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+    <title id="elem">001: Введение в JavaScript</title>
+    <script type="text/javascript">
+        function UpdateArithmeticResField(a, b) {
+            document.getElementById("plus").innerHTML = "a + b = <b> " + (a + b) + "</b>";
+            document.getElementById("minus").innerHTML = "a - b = <b> " + (a - b) + "</b>";
+            document.getElementById("multiply").innerHTML = "a * b = <b> " + (a * b) + "</b>";
+            document.getElementById("divide").innerHTML = "a / b = <b> " + (a / b) + "</b>";
+        }
+
+        function UpdateIncDecResField(x, y, z) {
+            document.getElementById("Average").innerHTML = "(x + y + z) / 3 = " + (x + y + z) / 3;
+            x += y - x++ * z;
+            document.getElementById("IncDec_1").innerHTML = "x += y - x++ * z (<b> x = " + x + ", y = " + y + ", z = " + z + "</b >)";
+            z = --x - y * 5;
+            document.getElementById("IncDec_2").innerHTML = "z = --x - y * 5 (<b> x = " + x + ", y = " + y + ", z = " + z + "</b >)";
+            y /= x + 5 % z;
+            document.getElementById("IncDec_3").innerHTML = "y /= x + 5 % z (<b> x = " + x + ", y = " + y + ", z = " + z + "</b >)";
+            z = x++ + y * 5;
+            document.getElementById("IncDec_4").innerHTML = "z = x++ + y * 5 (<b> x = " + x + ", y = " + y + ", z = " + z + "</b >)";
+            x = y - x++ * z;
+            document.getElementById("IncDec_5").innerHTML = "x = y - x++ * z (<b> x = " + x + ", y = " + y + ", z = " + z + "</b >)";
+        }
+
+        function UpdateCylinderResField(r, h) {
+            document.getElementById("Cylinder_V").innerHTML = "V = π * r<sup>2</sup> * h = " + (Math.PI * Math.pow(r, 2) * h) + "</b>";
+            document.getElementById("Cylinder_S").innerHTML = "S = 2 * π * r * h = <b> " + (2 * Math.PI * r * h) + "</b>";
+        }
+    </script>
+</head>
+<body>
+    <fieldset name="ArithmeticOperations">
+        <legend id="ArithmeticOperations">Арифметические операции</legend>
+        <table border="1">
+            <tr>
+                <td width="200">
+                    a =
+                    <input type="number" id="a" value="6"/>
+                </td>
+                <td rowspan="3" width="400">
+                    <ul>
+                        <li id="plus">a + b</li>
+                        <li id="minus">a - b</li>
+                        <li id="multiply">a * b</li>
+                        <li id="divide">a / d</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    b =
+                    <input type="number" id="b" value="3" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" value="Применить" onclick="UpdateArithmeticResField(+getElementById('a').value, +getElementById('b').value)" />
+                </td>
+            </tr>
+        </table>
+    </fieldset> <!--ArithmeticOperations-->
+    <fieldset name="IncrementAndDecrement">
+        <legend id="IncrementAndDecrement">Инкремент и декремент</legend>
+        <table border="1">
+            <tr>
+                <td width="200">
+                    x =
+                    <input type="number" id="IncDec_x" value="6" />
+                </td>
+                <td rowspan="4" width="400">
+                    <ul>
+                        <li id="Average">(x + y + z) / 3</li>
+                        <li id="IncDec_1">x += y - x++ * z</li>
+                        <li id="IncDec_2">z = --x - y * 5</li>
+                        <li id="IncDec_3">y /= x + 5 % z</li>
+                        <li id="IncDec_4">z = x++ + y * 5</li>
+                        <li id="IncDec_5">x = y - x++ * z</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    y =
+                    <input type="number" id="IncDec_y" value="15" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    z =
+                    <input type="number" id="IncDec_z" value="4" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" value="Применить"
+                           onclick="UpdateIncDecResField(+getElementById('IncDec_x').value, +getElementById('IncDec_y').value, +getElementById('IncDec_z').value)" />
+                </td>
+            </tr>
+        </table>
+    </fieldset> <!--IncrementAndDecrement-->
+    <fieldset name="Cylinder">
+        <legend id="Cylinder">Объём и площадь поверхности цилиндра</legend>
+        <table border="1">
+            <tr>
+                <td width="200">
+                    r =
+                    <input type="number" id="Cylinder_R" value="4" />
+                </td>
+                <td rowspan="3" width="400">
+                    <ul>
+                        <li id="Cylinder_V">V = π * r<sup>2</sup> * h</li>
+                        <li id="Cylinder_S">S = 2 * π * r * h</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    h =
+                    <input type="number" id="Cylinder_H" value="10" />
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="button" value="Применить" onclick="UpdateCylinderResField(+getElementById('Cylinder_R').value, +getElementById('Cylinder_H').value)" />
+                </td>
+            </tr>
+        </table>
+    </fieldset> <!--Cylinder-->
+</body>

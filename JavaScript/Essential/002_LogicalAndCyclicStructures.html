@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<head>
+    <title id="elem">002: Логические и циклические конструкции JavaScript</title>
+    <script type="text/javascript">
+
+        function GetRecrangleString(width = 1, height = 1, symbol = '*') {
+            var string = '';
+
+            for (var i = 0; i < height; i++) {
+                for (var j = 0; j < width; j++) {
+                    string += symbol;
+                }
+                string += '<br />';
+            }
+
+            return string;
+        }
+
+        function GetRightTriangleString(width = 1, height = 1, symbol = '*') {
+            var string = '';
+
+            for (var i = 0; i < +height; i++) {
+                for (var j = 0; j < width; j++) {
+                    if (j < (width * (i + 1) / height)) {
+                        string += symbol;
+                        continue;
+                    }
+
+                    string += '&nbsp';
+                }
+
+                string += '<br />';
+            }
+
+            return string;
+        }
+
+        function GetTriangleString(width = 1, height = 1, symbol = '*') {
+            var string = '';
+            var symbolCount = 0;
+            var nbspCount = 0;
+
+            for (var i = 0; i < height; i++) {
+
+                symbolCount = width * (i + 1) / height;
+                symbolCount = symbolCount < 1 ? 1 : symbolCount;
+                nbspCount = width - symbolCount;
+
+                for (var j = 0; j < width; j++) {
+                    if (j > nbspCount - 1 && j < nbspCount + symbolCount)
+                        string += symbol;
+                    else string += '&nbsp';
+                }
+
+                string += '<br />';
+            }
+
+            return string;
+        }
+
+        function GetRhombusString(width = 1, height = 1, symbol = '*') {
+            var string = '';
+            var symbolCount = 0;
+            var nbspCount = 0;
+
+            for (var i = 0; i < height; i++) {
+                symbolCount = i < height / 2 ? width * i * 2 / height : width * (height - i - 1) * 2 / height;
+                symbolCount = symbolCount < 1 ? 1 : symbolCount;
+                nbspCount = width - symbolCount;
+
+                for (var j = 0; j < width; j++) {
+                    if (j > nbspCount - 1 && j < nbspCount + symbolCount)
+                        string += symbol;
+                    else string += '&nbsp';
+                }
+
+                string += '<br />';
+            }
+
+            return string;
+        }
+
+        function ShowShapes(width = 1, height = 1) {
+            if (+width == null || +width == undefined || +width == NaN)
+                return;
+
+            if (+height == null || +height == undefined || +height == NaN)
+                return;
+
+            var rectangleField = document.getElementById("rectangleField");
+            var rightTriangleField = document.getElementById("rightTiangleField");
+            var triangleField = document.getElementById("triangleField");
+            var rhombusField = document.getElementById("rhombusField");
+
+            rectangleField.innerHTML = GetRecrangleString(+width, +height);
+            rightTriangleField.innerHTML = GetRightTriangleString(+width, +height);
+            triangleField.innerHTML = GetTriangleString(+width, +height);
+            rhombusField.innerHTML = GetRhombusString(+width, +height);
+
+        }
+
+        function GetFullSumm(a, b) {
+            var result = 0;
+            var m = b > a ? 1 : -1;
+
+            do
+            {
+                result += a;
+                a += m;
+            } while (a - m != b)
+
+            return result;
+        }
+
+        function GetFactorial(n) {
+            var result = 1;
+            var m = n > 0 ? 1 : -1;
+
+            while (n != 0) {
+                result *= n;
+                n -= 1 * m;
+            }
+
+            return result;
+        }
+
+        function UpdateSumAndFactorialField(a, b, n) {
+            document.getElementById('sumField').innerHTML = 'Сумма всех чисел от ' + +a + ' до ' + +b + ' = ' + GetFullSumm(a, b);
+            document.getElementById('factorialField').innerHTML = 'N! = ' + GetFactorial(n);
+        }
+
+    </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <fieldset name="Shapes">
+                    <legend>Геометрические фигуры</legend>
+                    <table border="1">
+                        <tr>
+                            <td>
+                                Width: <input type="number" id="shapeWidth" max="10" min="0" value="5" />
+                            </td>
+                            <td>
+                                Height: <input type="number" id="shapeHeight" max="10" min="0" value="5" />
+                            </td>
+                            <td>
+                                <input type="button" id="showShapes" value="ok" onclick="ShowShapes(getElementById('shapeWidth').value, getElementById('shapeHeight').value)" />
+                            </td>
+                        </tr>
+                        <tr><td colspan="3" align="center">Прямоугольник</td></tr>
+                        <tr><td colspan="3" id="rectangleField"></td></tr>
+                        <tr><td colspan="3" align="center">Прямоугольный треугольник</td></tr>
+                        <tr><td colspan="3" id="rightTiangleField"></td></tr>
+                        <tr><td colspan="3" align="center">Треугольник</td></tr>
+                        <tr><td colspan="3" id="triangleField"></td></tr>
+                        <tr><td colspan="3" align="center">Ромб</td></tr>
+                        <tr><td colspan="3" id="rhombusField"></td></tr>
+                    </table>
+                </fieldset>
+            </td>
+            <td valign="top">
+                <fieldset>
+                    <legend>Дополнительные задания</legend>
+                    <table border="1">
+                        <tr>
+                            <td>
+                                A: <input type="number" id="value_a" value="1">
+                            </td>
+                            <td>
+                                B: <input type="number" id="value_b" value="100">
+                            </td>
+                            <td>
+                                N: <input type="number" id="value_n" value="4">
+                            </td>
+                            <td>
+                                <input type="button" id="caclSumFromAToB" value="ok" onclick="UpdateSumAndFactorialField(+getElementById('value_a').value, +getElementById('value_b').value, +getElementById('value_n').value)" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" id="UpdateSumAndFactorialField">
+                                <ul>
+                                    <li id="sumField">Сумма всех чисел от A до B (включительно)</li>
+                                    <li id="factorialField">N!</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
+    </table>
+</body>
